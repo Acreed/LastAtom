@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Главная</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<style>
+		#page-preloader {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background: #000;
+			z-index: 100500;
+		}
+	</style>
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "libs/bootstrap/css/bootstrap.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+
+</head>
+
+<body>
+
+	<!-- Здесь пишем код -->
+<div id="page-preloader"></div>
+
+<section class="index-first-sec">
+
+		<div class="top-img">
+
+			<div class="menu-out">
+				<div class="logo">
+					<div id="logo-view"></div>
+				</div>
+				<div id="menu-hidden">
+					<nav>
+						<input type="checkbox" id="btn-menu"/>
+						<label for="btn-menu"></label>
+						<div class="menu">
+					        <ul id="ddmenu">
+					        	  <!-- <ul class="nav" id="ddmenu"> -->
+					        			<li><a href="#">ГЛАВНАЯ</a></li>
+					        			<li><a href="#">О ПРОЕКТЕ</a></li>
+					        			<li><a href="#">ОТЗЫВЫ</a></li>
+					        			<li><a href="#">АТОМ TV</a></li>
+					        			<li><a href="#">КОНТАКТЫ</a></li>
+					        </ul>	
+					    </div>
+					</nav>
+				</div>
+				<div id="menu-hidden-down">
+				</div>
+			</div>
+			<div class="container top-img-text">
+				
+				<div class="row">
+					
+					<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-10 col-xs-offset-2 ">
+						
+						<div class="cont1">
+							
+							<div class="header1">100<br>ВЕЛИКИХ<br>ЛИЧНОСТЕЙ</div>
+							<div class="desc">КАЖДЫЙ ГОД<br>НА ПРОЕКТЕ<br><strong>ПОРТРЕТ АТОМА</strong></div>
+							<div class="plus">+</div>
+							<div class="desc2">СТАНЬ<br>ОДНИМ<br>ИЗ<br>100<br>-</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						
+						<div class="cont2"><br>
+							<div class="line"></div>
+							<div class="header1">02<br>
+							<span class="header2">04 -</span></div>
+							<div class="desc">СТАНЬ<br>ОДНИМ<br>ИЗ<br>100<br>-</div>
+						</div>
+					</div>
+					<div class="btn-vert">
+						<button class="btn-vert-type"><p id="s2">ПОРТРЕТ</p><p id="s1">СОЗДАТЬ</p></button>
+					</div>	
+					<div class="btn-cross">
+						<button class="btn-cross-type"></button>
+					</div>	
+				</div>
+			</div>
+
+			
+			<div class="container first-img">
+				
+				<div class="row">
+
+					<div class="plnk"></div>
+
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="ic1">
+						<div class="img">
+							<img src="img/index/infoblock/play.png">
+						</div>	
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 cont">
+							<div class="name">ПОРТРЕТ АТОМА</div>
+							<div class="type">-</div>
+							<div class="header">Проект, который открывает <br class="y"><span>вашего внутренего гения!  </span>
+							</div>
+							<div class="desc">Раскрытие ядра личности — <br class="y">
+							вот что происходит с <br class="n">человеком<br class="y">
+							 за время создания Портрета.<br>
+							 В результате вы получаете самый <br class="y">
+							настоящий Портрет <br class="n">вашей личности.
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="container second-img">
+				<div class="row">
+					<div class="plnk"></div>
+					<div class="zoo">
+						<div class="name">300</div>
+					</div>
+					<div class="plnk1"><button class="ic2"></button></div>
+					<div class="akcent">+</div>
+					<div class="akcent1">Великих личностей</div>
+					<div class="akcent2">уже на проекте</div>
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="ic1">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 cont">
+							<div class="name">ГЕНИАЛЬНОСТЬ <br>КАЖДОЙ ДУШИ <br><span>-</span> </div>
+							<div class="header">Проект «Портрет Атома» уже объединил<br>
+							300 ВЕЛИКИХ личностей среди которых
+							</div>
+							<div class="desc"><span id="open">
+							<button id="ic3" onclick="hiden('hiden'); return false"></button>
+							народный артист Украины Георгий Делиев,<br>
+							чемпион мира и Европы <br>
+							по тайскому боксу Денис Григорьев,<p class="dots">...</p><br><span id="hiden" style="display: none;">
+							актер и телеведущий Яков Гопп, <br>
+							журналист и телеведущий Борис Бурда,<br> 
+							а также политики и бизнесмены, <br>
+							политтехнологи и пиарщики, <br>
+							и еще много великих личностей.</span></span>
+							<span id="hiden2">народный артист Украины Георгий Делиев,
+							чемпион мира и Европы <br>
+							по тайскому боксу Денис Григорьев, актер и телеведущий Яков Гопп, <br>
+							журналист и телеведущий Борис Бурда, а также политики и <br> 
+							бизнесмены, политтехнологи и пиарщики, <br>
+							и еще много великих личностей.</span>
+							<div class="btn-inf1">
+								<button class="btn-own-type">Войти в их круг</button>
+							</div>		
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="container third-img">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 per">
+							<p id="per1"><img id="l3" src="img/index/infoblock/rmb1.png"> Ядро личности</p>
+							<p><img id="l2" src="img/index/infoblock/rmb.png"> 
+							Авторская методика</p>
+							<p><img id="l1" src="img/index/infoblock/rmb.png"> Единственная в мире</p>
+							<p><img src="img/index/infoblock/rmb.png"> 
+							Настоящий Портрет</p>
+							<div class="btn-inf1">
+								<button class="btn-own-type">Смотреть Портреты</button>
+							</div>
+					</div>
+					<div class="plnk"></div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-3 img" id="ic1">
+							<div class="type1">10</div>
+							<div class="type2">дней</div>
+							<div class="type3">на
+							</div>
+							<div class="type4">Создание<br>
+							данного Портрета
+							</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 cont">
+							<div class="name">Биография на холсте</div>
+							<div class="header">Как создается Портрет:
+							</div>
+							<div class="desc">1. Вы приходите на встречу. <br>
+							<br>
+							2. Главная цель проекта — <br class="y">показать человеку <br class="n">
+							его <br class="y">внутреннего гения и <br class="y">с точностью <br class="n">
+							отобразить <br class="y">на портрете. На встрече <br>
+							вам не станут задавать <br class="y">личных вопросов.<br>
+							<br>
+							<p id="r">3. В процессе создается <br class="y">живой портрет, <br class="n">
+							который <br class="y">отображает всю глубину <br class="y">личности.</p>
+							</div>
+							<div class="btn-inf1">
+								<button class="btn-own-type">Создать Портрет</button>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section class="index-second-sec">
+		
+	<div class="container sec">		
+		<div class="row">
+			<div class="plnk1"></div>
+			<div class="plnk2"></div>	
+			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="ic1">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">	
+					<div class="cont">
+						<div class="name">ТАТЬЯНА ПОЛЕВАЯ</div>
+						<div class="desc">Полковник национальной <br>
+						гвардии. Специалист в <br>
+						военном финансировании. <br>
+						<a class="link" href="#">Читать далее>></a>
+						</div>
+					</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container cases-cont">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ots">	
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img2.png" alt="">
+						<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+						<p id="ot">Владелец сети магазинов <br>
+						нишевой парфюмерии <br>
+						Жан niche concept<br>
+						<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img3.png" alt="">
+						<p><span class="akcent">НАТАЛЬЯ МААТ</span></p>
+						<p id="ot">Юрист финансового <br>
+						права и аудитор <br>
+						<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item" id="blind2">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img4.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item" id="blind1">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img5.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ots">	
+				<div class="item" id="blind2">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img6.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item" id="blind1">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img7.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img8.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img9.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ots">	
+				<div class="item" id="blind1">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img10.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img11.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item" id="blind2">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img12.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="bgrim">
+						<img src="img/index/photoblock/img13.png" alt="">
+							<p><span class="akcent">АЛЕКСЕЙ РАДЯН</span></p>
+							<p id="ot">Владелец сети магазинов <br>
+							нишевой парфюмерии <br>
+							Жан niche concept<br>
+							<a class="link" href="#">Читать далее>></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="btn-pht">
+		<button class="btn-own-type">СМОТРЕТЬ ВСЕ</button>
+	</div>
+
+</section>
+
+<section class="index-third-sec">
+	<div class="container prem1">		
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div class="cont">
+						<div class="first">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<h1>Раскрыть потенциал</h1>
+								<p>Участие в проекте — это встреча со своей гениальностью. С тем, что вы еще не 
+								знаете или долго не замечали. Загляните в настоящего себя, чтобы увидеть там 
+								возможности, силы и мечты, которые пора исполнять.</p>
+							</div>
+						</div>
+						<div class="second">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<img src="img/index/infoblock/bck1.png" alt="" align="right" vspace="5" hspace="5">
+								<span class="blk">Биография на холсте <br>
+								как способ</span>
+								<span class="blk2">+</span>
+								<h1>Заявить о себе</h1>
+								<p>После проекта многие обретают <br class="y">
+								новый вектор движения. Осознав <br class="y">
+								свою <br class="n">внутреннюю силу, <br class="y">
+								продемонстрируйте ее окружающим.<br>
+								 Портрет — это шанс стать увереннее <br class="y">
+								и сформировать широкий круг <br>
+								интересов и связей.</p>
+							</div>
+
+						</div>
+						<div class="third">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<h1>Поделиться с другими</h1>
+								<p>Позвольте родным, друзьям и коллегам в любой момент жизни чувствовать себя 
+								молодыми и полными энергии — подарите им живой портрет. Создавая портрет 
+								из года в год, человек «пишет» книгу жизни, которая со временем превратится в 
+								семейную реликвию.</p>
+							</div>
+							
+						</div>
+					</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 imin">
+				<img src="img/index/pluses/img1.png">
+			</div>
+		</div>
+	</div>
+	<div class="container prem2">		
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 imin">	
+					<img src="img/index/pluses/img2.png">
+			</div>	
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div class="cont">
+						<div class="first">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<h1>Авторская методика</h1>
+								<p>Создана Юрием Атомом и включает в себя 15 наук. Прочувствовать методику можно только<br class="y">
+ 								в процессе создания портрета — изнутри. По окончании вы получите портрет который<br class="y">
+ 								удивит — он будет с точностью до мелочей соответствовать вашему внутреннему миру.</p>
+							</div>
+						</div>
+						<div class="second">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<h1>Открытие внутреннего гения</h1>
+								<img src="img/index/infoblock/bck1.png" alt="" align="left" vspace="5" hspace="5">
+								<span class="blk">Авторская методика,<br>
+								cвет Рембрандта</span>
+								<span class="blk1">и другие особенности проекта</span>
+								<span class="blk2">+</span>
+								<p>Увидеть свой внутренний мир в деталях,<br class="y">
+								почувствовать скрытую силу,<br class="n"> запечатлеть<br class="y">
+								лицо своего счастья — все это позволяет<br class="y">
+								 портрет. А еще он дает <br class="n">возможность<br class="y">
+								возвращаться к этому состоянию <br class="y">
+								снова и снова. Если вы хотите <br class="n">обрести<br class="y">
+								уверенность в себе и раздуть искру<br class="y">
+								 гениальности,<br class="n"> добро пожаловать в проект!</p>
+							</div>
+
+						</div>
+						<div class="third">
+							<div class="plnk"><a class="ic1"></a></div>
+							<div class="text">
+								<h1>Фамильная ценность</h1>
+								<p>Живой портрет раскроет душевную силу ваших родных, усилив образ и <br class="y">
+								запечатлев лучшие их черты для потомков. Когда-то голландский художник <br class="y">
+								с той же целью использовал специальный тип освещения, так его портреты <br class="y">
+								обретали глубину и драматический эффект.</p>
+							</div>
+							
+						</div>
+					</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+<section id="idea">
+	<div class="itextf">
+		<span class="ihead">Идея проекта: </span>
+		<br>
+		<span class="ih2">как все начиналось и для чего</span>
+		<br>
+		<p class="itext">Здравствуйте! Меня зовут Юра Атом и <br>
+		я верю в этот проект так же, как верю <br class="y">в самого себя.<br><br>
+
+		Я знаю, что каждый человек способен <br class="y">стать лидером, <br class="n">
+		увеличить свои <br class="y">достижения и результативность в разы. <br>
+		Но многие не осознают, какой <br class="y">силой обладают. <br><br>
+
+		Моя цель — показать ее людям, <br class="y">«добраться» до их внутреннего гения <br>
+		и сделать так, чтобы у человека <br class="y">захватило дух от того, сколько <br class="n">
+		он может <br class="y">свершить дел и исполнить миссий. <br><br>
+
+		Гений раскрывается в процессе создания живого портрета <br>
+		личности. За это время вы знакомитесь с собой и решаете, <br>
+		как быть дальше, каких целей нужно добиться, а от каких отказаться. <br><br>
+
+		Я искренне рад, что этот проект помогает мне <br>
+		объединять великих людей, и приглашаю<br>
+		 вас стать одним из них.</p>
+	</div>
+	<div class="ibut"><a href="#" class="ibut-link">Принять приглашение</a></div>
+</section>
+<section class="questions">
+	<div class="quecont">
+		<div class="qhtext">Остались вопросы?</div>
+		<div class="qltext">Автор с удовольствием ответит на них</div>
+		<div class="qbut">
+			<a href="#" class="qbut-link">Задать вопрос автору</a>
+		</div>
+	</div>
+</section>
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 foottextwhite">2017 Портрет Атома</div>
+			<div class="col-lg-8 col-md-8 col-sm-8 foottext">
+				<a href="" class="footlink">Главная</a>/
+				<a href="" class="footlink">О проекте</a>/
+				<a href="" class="footlink">Отзывы</a>/
+				<a href="" class="footlink">Атом TV</a>/
+				<a href="" class="footlink">Контакты</a>
+			</div>
+			<div class="lang">
+				<a class="foottextwhite">RU</a>
+				<a class="footlink specpad">ENG</a>
+			</div>
+			<div class="logo-foot">
+				<div id="logo-view"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="dno"></section>
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false},
+		{"src" : "libs/imagesloaded/imagesloaded.pkgd.min.js", "async" : false},
+		{"src" : "libs/masonry/masonry.pkgd.min.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<script type="text/javascript" src="libs/jquery/jquery-1.11.2.min.js"></script> 
+	<script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#page-preloader');
+    $preloader.delay(20).fadeOut('slow');
+	});</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>
